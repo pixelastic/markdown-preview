@@ -1,7 +1,6 @@
 # markdown-preview
 
-Renders a preview of a markdown text in your browser. It uses styling similar to
-GitHub.
+Renders a preview of a markdown text in your browser.
 
 ## Usage
 
@@ -14,6 +13,19 @@ $ markdown-preview ./readme.md
 ## Installation
 
 Install globally with `yarn global add @pixelastic/markdown-preview`
+
+## Integration with vim
+
+I've added the following mapping to my `after/ftplugin/markdown.vim` to see
+a preview when I press `F5`.
+
+```vim
+nnoremap <silent> <buffer> <F5> :call MarkdownPreview()<CR>
+function! MarkdownPreview()
+  silent execute ':!nohup markdown-preview % &>/dev/null &'
+  redraw!
+endfunction
+```
 
 ## Limitations
 
