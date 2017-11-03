@@ -9,7 +9,7 @@ by default.
 $ markdown-preview ./readme.md
 ```
 
-//TODO: Display screenshot
+![Preview](./screenshot.png)
 
 ## Installation
 
