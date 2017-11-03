@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/normalize.css@4.1.1/normalize.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width">
+    <title>Markdown preview</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      article {
+        width: 980px;
+        margin: 25px auto;
+        color: #24292e;
+        border: 1px solid #ddd;
+        padding: 25px 45px;
+        line-height: 24px;
+      }
+      code {
+        padding: 0.2em;
+        margin: 0;
+        font-size: 85%;
+        background-color: rgba(27,31,35,0.05);
+        border-radius: 3px;
+      }
+      pre code {
+        display: block;
+        padding: 16px;
+        overflow: auto;
+        font-size: 85%;
+        line-height: 1.45;
+        background-color: #f6f8fa;
+        border-radius: 3px;
+        width: 100%;
+      }
+      a {
+        color: #0366d6;
+        text-decoration: none;
+      }
+    </style>
+</head>
+
+<body>
+  <article>{{MARKDOWN_CONTENT}}</article>
+</body>
+
+</html>
