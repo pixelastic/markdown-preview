@@ -7,8 +7,9 @@
   "scripts": {
     "release": "npm version patch && npm publish --access=public && git push --follow-tags"
   },
+  "main": "./lib/index.js",
   "bin": {
-    "markdown-preview": "markdown-preview"
+    "markdown-preview": "./bin/markdown-preview"
   },
   "dependencies": {
     "markdown-it": "^8.4.0"
