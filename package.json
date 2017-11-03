@@ -12,5 +12,15 @@
   },
   "dependencies": {
     "markdown-it": "^8.4.0"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelastic/markdown-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelastic/markdown-preview/issues"
+  },
+  "homepage": "https://github.com/pixelastic/markdown-preview#readme"
 }
