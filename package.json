@@ -7,7 +7,6 @@
   "scripts": {
     "release": "npm version patch && npm publish --access=public && git push --follow-tags"
   },
-  "main": "./index.js",
   "bin": {
     "markdown-preview": "./bin/markdown-preview.js"
   },
