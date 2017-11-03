@@ -11,3 +11,7 @@ $ markdown-preview ./readme.md
 
 //TODO: Display screenshot
 
+## Installation
+
+Install globally with `yarn global add @pixelastic/markdown-preview`
+
