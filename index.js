@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 /* eslint-disable import/no-commonjs */
 const path = require('path');
 const fs = require('fs');

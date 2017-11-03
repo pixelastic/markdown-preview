@@ -1,4 +1,13 @@
 {
+  "name": "markdown-preview",
+  "description": "Convert a markdown file to HTML and display it in a webpage similar to GitHub",
+  "version": "0.0.1",
+  "scripts": {
+    "release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "bin": {
+    "markdown-preview": "index.js"
+  },
   "dependencies": {
     "markdown-it": "^8.4.0"
   }
