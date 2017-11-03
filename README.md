@@ -1,7 +1,7 @@
 # markdown-preview
 
-Displays in a browser window a preview of a markdown file. Uses GitHub theming
-by default.
+Renders a preview of a markdown text in your browser. It uses styling similar to
+GitHub.
 
 ## Usage
 
@@ -14,4 +14,10 @@ $ markdown-preview ./readme.md
 ## Installation
 
 Install globally with `yarn global add @pixelastic/markdown-preview`
+
+## Limitations
+
+- Uses a hard-coded `/tmp/` to store the HTML file
+- Uses a hard-coded `google-chrome` to open the file
+- Does not handle local images
 
