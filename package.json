@@ -1,5 +1,7 @@
 {
-  "name": "markdown-preview",
+  "name": "@pixelastic/markdown-preview",
+  "author": "Pixelastic <tim@pixelastic.com>",
+  "license": "MIT",
   "description": "Convert a markdown file to HTML and display it in a webpage similar to GitHub",
   "version": "0.0.1",
   "scripts": {
