@@ -8,12 +8,11 @@
     "release": "npm version patch && npm publish --access=public && git push --follow-tags"
   },
   "bin": {
-    "markdown-preview": "index.js"
+    "markdown-preview": "markdown-preview"
   },
   "dependencies": {
     "markdown-it": "^8.4.0"
   },
-  "main": "index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
