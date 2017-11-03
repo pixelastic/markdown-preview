@@ -3,7 +3,7 @@
   "author": "Pixelastic <tim@pixelastic.com>",
   "license": "MIT",
   "description": "Convert a markdown file to HTML and display it in a webpage similar to GitHub",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "scripts": {
     "release": "npm version patch && npm publish --access=public && git push --follow-tags"
   },
